@@ -1,0 +1,52 @@
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.linkItem {
+    color: white;
+}
+
+.footerLogo {
+    height: 7rem;
+}
+
+.footerLogoDiv {
+    display: grid;
+    justify-content: end;
+}
+
+.upperFooter {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    height: 10rem;
+    background: #293c53;
+}
+
+.links1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links2 {
+    display: flex;
+}
+
+.links2 li {
+    margin-right: 1rem;
+}
+
+.links2 li a img{
+    height: 2rem;
+}
+
+.bottomFooter {
+    display: flex;
+    background: #293c53;
+    justify-content: center;
+    color: white;
+    height: 3rem;
+}

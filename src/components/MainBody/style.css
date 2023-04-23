@@ -1,0 +1,38 @@
+.mainContainer{
+    display: grid;
+    background-color: #1b2838;
+    height: fit-content;
+    width: 90%;
+    grid-template-rows: 2fr 1fr 2fr 2fr;
+    grid-template-columns: 1fr 5fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.grid-item{
+    background-color: #1b2838;
+}
+.sidebar{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.firstC{
+    width: 74vw;
+    color: white;
+}
+.secondC{
+    width: 74vw;
+    color: white;
+}
+.thirdC{
+    width: 74vw;
+    color: white;
+}
+.thirdC img{
+    width: 16rem;
+}
+.ad{
+    width: 74vw;
+    color: white;
+}
